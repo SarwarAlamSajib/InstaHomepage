@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid lightgrey;
+    overflow: hidden;
+    position: fixed;
+    padding: 2px;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-top: 0;
+}
+nav li {
+    display: block;
+    margin-right: 4px;
+}
+
+nav img {
+    margin-left: 100px;
+    margin-right: 180px;
+    padding-top: 5px;
+}
+nav input {
+    border-radius: 3px;
+    height: 25px;
+    width: 210px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    margin-right: 140px;
+
+}
+nav a {
+    color: black;
+}
+
+.aicon{
+    padding: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.roundui{
+    width: 25px;
+    height: 25px;
+    background-image: url(user.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin-top: 8px;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white; 
+    
+}
+
+#post {
+    height: auto;
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 150px;
+    margin-top: 90px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+#others{
+    width: 450px;
+    height: auto;
+    margin-top: 55px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: fixed;
+    right: 0px;
+    background-color:white;
+
+}
+
+#ptopper {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;  
+    /*border-bottom: 1px solid lightgrey */
+}
+
+#ptopper ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-top: 0;
+   
+} 
+#ptopper li {
+    padding: 0 10px; 
+}
+
+#ptopper a{
+    text-decoration: none;
+    color: black;
+}
+
+.tproundui{
+    width: 30px;
+    height: 30px;
+    background-image: url(user.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin-top: 10px;
+}
+
+
+
+.pimage {
+    height: auto;
+    width: 100%;
+ 
+}
+
+.posticon {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    padding: 2px;   
+}
+
+.posticon ul{
+    list-style: none;
+    padding-left: 5px;
+    display: flex;
+    margin-top: 5px;
+}
+   
+
+.posticon li {
+    display: block;
+    padding: 0 10px;
+    font-size: 14px;
+    
+}
+.posticon a {
+    color: black;
+}
+
+
+.ptext{
+    margin-top: 0px;
+    margin-left: 20px;
+
+
+}
+.plasttext {
+    font-size: 12px;
+    color: darkgrey;
+
+}
+.posttext{
+    height: auto;
+    width: 100%;
+}
+
+.comment {
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.comtext{
+    margin-left: 20px;
+    color: darkgray;
+}
+.compost {
+    margin-right: 10px;   
+    color: lightskyblue;
+}
+
+.otherstop{
+    display: flex;
+    margin-left: 20px; 
+    margin-top: 30px;  
+
+}
+
+.rounduir{
+    width: 55px;
+    height: 55px;
+    background-image: url(user.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+}   
+
+.otherstop a{
+    text-decoration: none;
+    color: black;
+}
+.card {
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+    padding-bottom: 2px;
+    border: 1px solid lightgrey;
+    padding: 0 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.cardtop{
+    display: flex;
+    justify-content: space-between;
+}
+.cardtop a {
+    text-decoration: none;
+    color: black;
+}
+.cardtopleft{
+    color: darkgray;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.storysugeestion{
+    overflow: auto;
+    height: 156px;
+    display: flex;   
+}
+
+
+.rounduserstory{
+    width: 40px;
+    height: 40px;
+    background-image: url(user3.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: 2px solid  red;
+}  
+
+.storyspantext{
+    color: gray;
+    font-size: 11px;
+}
+.ufullname{
+    color: gray;
+    font-size: 14px;
+}
+.storyun a{
+    text-decoration: none;
+    color: black;
+}
+.storyun p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.followsugeestion{
+    display: flex;
+    margin-top: 0;  
+}
+
+.rounduserfollow{
+    width: 30px;
+    height: 30px;
+    background-image: url(fuser.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 10px; 
+}  
+.followun a{
+    text-decoration: none;
+    color: black;
+}
+.followun  p{
+    margin-top: 6px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.followspantext{
+    color: gray;
+    font-size: 14px;
+}
+
+.follow{
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: right;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.follow a{
+    text-decoration: none;
+    color: #2980b9;
+    padding: 10px;
+}
+
+.pf{
+    margin-bottom: 25px;}
+
+.footer{
+    margin-top: 35px;
+    margin-left: 20px;  
+}
+.footer p{
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: darkgray;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    body{
+        margin: 0px;}
+
+    #others {
+        display: none;}
+
+    nav input{
+        display: none;}  
+    .itextlogo {
+        margin-left: 0px;
+        margin-right: 0px;} 
+} 
+
+
